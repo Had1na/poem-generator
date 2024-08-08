@@ -12,12 +12,7 @@ h1 {
 }
 
 form {
-  padding: 20px;
-  background: #20615b;
-  border-radius: 10px;
   display: flex;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  margin-bottom: 30px;
 }
 
 a {
@@ -39,6 +34,20 @@ footer {
   padding: 5px 20px 30px;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.form-container {
+  padding: 20px 25px 10px;
+  background: #20615b;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 30px;
+}
+
+.hint {
+  line-height: 1.5;
+  margin: 7px 25px 0;
+  opacity: 0.6;
 }
 
 .instructions {
@@ -70,6 +79,10 @@ footer {
   border-left: 3px solid #a21232;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.hidden {
+  display: none;
 }
 
 .poem small {
