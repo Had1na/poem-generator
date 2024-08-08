@@ -1,14 +1,14 @@
 body {
-  background: #20615b;
+  background: #2d767f;
   font-family: monospace;
 }
 
 h1 {
   text-align: center;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 36px;
   line-height: 1.5;
-  color: #1a1831;
+  color: #1e6262;
 }
 
 form {
@@ -16,31 +16,35 @@ form {
 }
 
 a {
-  color: #a21232;
+  color: #1e6262;
   text-decoration: none;
 }
 
 footer {
   text-align: center;
   font-size: 14px;
-  opacity: 0.8;
   margin-top: 30px;
+  color: #2d767f;
 }
 
 .container {
   margin: 80px auto;
   max-width: 600px;
-  background: #dece9c;
+  background: #ecfffb;
   padding: 5px 20px 30px;
   border-radius: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .form-container {
   padding: 20px 25px 10px;
-  background: #20615b;
+  background: #b4f1f1;
   border-radius: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   margin-bottom: 30px;
 }
 
@@ -48,6 +52,7 @@ footer {
   line-height: 1.5;
   margin: 7px 25px 0;
   opacity: 0.6;
+  color: #1e6262;
 }
 
 .instructions {
@@ -56,29 +61,36 @@ footer {
   width: 80%;
   border-radius: 50px;
   line-height: 1.5;
-  color: #1a1831;
+  color: #1e6262;
 }
 
 .submit-button {
   padding: 16px 24px;
   border-radius: 50px;
-  color: #dece9c;
-  background: #1a1831;
+  color: #ecfffb;
+  background: #1e6262;
   margin-left: 10px;
   border: none;
   font-size: 16px;
   width: 150px;
+  transition: all 150ms ease-in-out;
+}
+
+.submit-button:hover {
+  background: #2d767f;
 }
 
 .poem {
   font-size: 16px;
-  color: #dece9c;
-  background: #20615b;
+  color: #1e6262;
+  background: #b4f1f1;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #a21232;
+  border-left: 3px solid #2d767f;
   border-radius: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .hidden {
@@ -86,5 +98,5 @@ footer {
 }
 
 .poem small {
-  color: #1a1831;
+  color: #1e6262;
 }
